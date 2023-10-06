@@ -54,20 +54,67 @@
             </div>
         </nav>
     </header>
-    <h1>Hello, world!</h1>
-    <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            First in DOM, no order applied
-          </div>
-          <div class="col order-5">
-            Second in DOM, with a larger order
-          </div>
-          <div class="col order-1">
-            Third in DOM, with an order of 1
-          </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-      </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/CTSD1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Como Treinar Seu Dragão</h5>
+                    <p>Soluço é um jovem viking que não tem capacidade para lutar contra os dragões, como é a tradição
+                        local. Sua vida muda quando ele ajuda um dragão que lhe mostra toda a verdade.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/CTSD2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Como Treinar Seu Dragão 2</h5>
+                    <p>Cinco anos se passaram desde que Soluço estabeleceu a paz com os dragões e vive em harmonia, na
+                        Ilha de Berk, com Banguela.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/CTSD3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Como Treinar seu Dragão 3</h5>
+                    <p>Soluço busca realizar seu grande sonho de encontrar um lar pacífico onde os dragões possam viver
+                        em segurança. Lá, Banguela descobre uma companheira, assim como ele, mas um tanto selvagem.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    First in DOM, no order applied
+                </div>
+                <div class="col order-5">
+                    Second in DOM, with a larger order
+                </div>
+                <div class="col order-1">
+                    Third in DOM, with an order of 1
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js\bootstrap.bundle.js"></script>
 </body>
